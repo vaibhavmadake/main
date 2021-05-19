@@ -35,4 +35,11 @@ $('.dropdown-menu div div').on('click' , function(){	$('#navigation_2_dropdown_1
 $('.dropdown-menu').toggleClass("active");																										
 })
 
+/** **************************/
+
+$(".btn-group > .btn").click(function() {
+  $(".btn-group > .btn").removeClass("active");
+  $(this).addClass("active");
+});
+
 
